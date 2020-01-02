@@ -3,7 +3,7 @@
 
 int dummy(void)
 {
-  printf("dummy:I am just a filler file\n");
+  printf("Climb the ladder to success\n");
 
   return 23;
 }
