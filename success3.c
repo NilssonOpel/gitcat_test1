@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-extern char *get_a_string(int a);
+
 extern int   file_in_subdir(int in);
+
+int the_ladder_to_success4(int in);
 
 int the_ladder_to_success3(int in)
 {
-  printf ("Hi, I am Cess\n");
+  printf ("You are at the   third   stage on the ladder to success\n");
 
-  printf("%s\n", get_a_string(file_in_subdir(in)));
-
-  return 0;
+  return the_ladder_to_success4(in);
 }
 
